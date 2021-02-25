@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/signal_strength_display_tv"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <eo.view.signalstrength.SignalStrengthView
+        android:id="@+id/signalStrengthView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:padding="16dp"
+        android:layout_gravity="center"
+
+        app:signalStrengthColor="?colorAccent"
+        app:signalStrengthLevel="50"
+        app:signalStrengthTheme="rounded" />
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    >
+    <Button
+        android:id="@+id/start_tracking"
+        android:text="Start"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/stop_tracking"
+        android:text="Stop"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/latitide_tv"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Latitude" />
+
+
+        <TextView
+            android:id="@+id/longitude_tv"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitde" />
+
+
+
+
+
+
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="signalStrengthStyle" type="reference" />
+
+    <declare-styleable name="SignalStrengthView">
+        <attr name="signalStrengthColor" format="color" />
+        <attr name="signalStrengthTheme" format="enum">
+            <enum name="rounded" value="0" />
+            <enum name="sharp" value="1" />
+        </attr>
+
+        <attr name="signalStrengthLevel" format="integer" />
+    </declare-styleable>
+</resources>

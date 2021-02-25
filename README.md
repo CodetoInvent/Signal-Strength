@@ -1,5 +1,7 @@
 # Signal-Strength
-This is a very simple project to track signal strength even in background along with the latitude and longitude. What you can expect:
+This is a very simple project to track signal strength even in background along with the latitude and longitude. 
 
-Signal strength tracking [ foreground and background ]
-Tracking latitude and longitude you are free to customize the code acording to your need
+What you can expect?
+
+1. Signal strength tracking [ foreground and background ]
+2. Tracking latitude and longitude you are free to customize the code acording to your need
